@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dev :Lab1</title>
+  <style>
+    /* Style1 - Main heading */
+    .style1 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: black;
+      font-family: Times New Roman, serif;
+    }
+
+    /* Style2 - Subtitle link */
+    .style2 {
+      text-align: center;
+      font-size: 1.1em;
+      font-weight: bold;
+      color: red;
+      font-family: Times New Roman, serif;
+    }
+
+    .style2 a {
+      color: red;
+      text-decoration: underline;
+    }
+
+    /* Style3 - Label text (Full name, Age, etc.) */
+    .style3 {
+      font-weight: bold;
+      color: green;
+      font-family: Times New Roman, serif;
+      font-size: 1em;
+    }
+
+    /* Style4 - Image */
+    .style4 {
+      width: 250px;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    body {
+      background-color: white;
+      font-family: Times New Roman, serif;
+      margin: 20px 40px;
+    }
+
+    .info-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      margin-top: 10px;
+    }
+
+    .info-text p {
+      margin: 10px 0;
+      font-size: 1em;
+      color: black;
+    }
+
+    .info-text p span.label {
+      font-weight: bold;
+      color: green;
+    }
+
+    sup {
+      font-size: 0.7em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="style1">Welcome to my Web Site</h1>
+  <p class="style2"><a href="#">Web Development (Lab1)</a></p>
+
+  <div class="info-section">
+    <div class="info-text">
+      <p><span class="label">Full name:</span> Hazem mahmoudi</p>
+      <p><span class="label">Age:</span> 20 years old</p>
+      <p><span class="label">Class:</span> 2<sup>nd</sup> LMD computer Science</p>
+      <p><span class="label">University:</span> University of EL OUED</p>
+    </div>
+    <div>
+      <img src="image.jpg" alt="Profile Image" height="250">
+    </div>
+  </div>
+
+</body>
+</html>
